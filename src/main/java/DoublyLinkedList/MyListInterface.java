@@ -24,7 +24,7 @@ public interface MyListInterface {
 
     void printListBackwards();
 
-    Integer get(int index) throws IllegalArgumentException;
+    int get(int index) throws IllegalArgumentException;
 
     void removeDuplicates();
 
